@@ -142,3 +142,6 @@ idea/
 
 # VI
 *.swp
+
+# Jupyterlab
+.ipynb_checkpoints/
