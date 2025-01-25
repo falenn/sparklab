@@ -12,6 +12,13 @@ Spark 3.5.x	Java 8, 11, 17	Scala 2.12.x, 2.13.x
 ### Install java
 sudo dnf install java-11-openjdk java-11-openjdk-devel -y
 
+### Install Apache Spark
+```
+wget https://dlcdn.apache.org/spark/spark-3.5.4/spark-3.5.4-bin-hadoop3.tgz
+tar -zxvf spark-3.5.4-bin-hadoop3.tgz 
+```
+
+
 
 ## PySpark
 
