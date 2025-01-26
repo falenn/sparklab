@@ -44,7 +44,9 @@ sudo dnf install python39 -y
 python3.9 --version
 ```
 ### pyenv - multiple versions of python
-install with 
+Why PyEnv?  Pyenv with virtual-env allows us to install mlutiple versions of Python and configure them per project.  With Virtual-env, it acts like venv, locally containing any pip installs.
+
+install with:
 ```
 curl https://pyenv.run | bash
 mkdir ~/bin
