@@ -58,7 +58,22 @@ list all python versions to install:
 ```
 pyenv install --list | grep " 3\.[8910]"
 ```
+Install requirements
+```
+sudo dnf install -y \
+    gcc \
+    gcc-c++ \
+    make \
+    zlib-devel \
+    bzip2 bzip2-devel \
+    readline-devel \
+    sqlite sqlite-devel \
+    openssl-devel \
+    xz xz-devel \
+    libffi-devel \
+    ncurses-devel
 
+```
 Install one with optimizations set:
 ```
 env PYTHON_CONFIGURE_OPTS='--enable-optimizations' pyenv install -v 3.9.18
