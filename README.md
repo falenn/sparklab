@@ -141,6 +141,11 @@ To deactivate:
 pyenv deactivate myproject
 ```
 
+Delete a virtualenv
+```
+pyenv virtualenv-delete venv-name
+```
+
 
 
 
