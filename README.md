@@ -71,7 +71,8 @@ sudo dnf install -y \
     openssl-devel \
     xz xz-devel \
     libffi-devel \
-    ncurses-devel
+    ncurses-devel \
+    patch
 
 ```
 Install one with optimizations set:
